@@ -134,6 +134,10 @@ chmod a+x /usr/local/bin/symfony
 #
 cd /vagrant/sites
 symfony new mysite 2.7
+# These files set up development better by first pointing you to the app_dev.php and also disabling 
+# the class cache, allowing debugging to look at the real class files.
+ln -fs /vagrant/Vagrantdata/.htaccess /vagrant/sites/mysite/web/.htaccess
+ln -fs /vagrant/Vagrantdata/symfonyDev__app_dev.php /vagrant/sites/mysite/web/app_dev.php
 
 cd /vagrant/sites
 symfony demo 2.7
