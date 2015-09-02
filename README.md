@@ -43,7 +43,7 @@ To launch the vagrant box go to your directory (you'll already be there if you'r
 ```
 vagrant up
 ```
-To test your virtual machine, go to your favorite web browser and type 192.168.50.4 into the address bar. If you see the symfony test page, then it's all working so far. If you see anything else, try checking out the troubleshooting section at the end of this page.
+To test your virtual machine, go to your favorite web browser and type 192.168.50.4 into the address bar. This is the ip address that the virtual machine is given in the Vagrantfile you downloaded as part of sym-star. If you see the symfony test page, then it's all working so far. If you see anything else, try checking out the troubleshooting section at the end of this page.
 
 ### Use The Proper Website Name
 To allow you to use the website's real name in the browser, rather than typing in the ip address each time, you need to edit the 'host' file on your main machine. This is standard practice for web development.
