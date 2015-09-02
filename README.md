@@ -7,9 +7,13 @@
 
 **[Launch The Virtual Machine](#launch-the-virtual-machine)**
 
+**[First Test Of Virtual Machine](#first-test-of-virtual-machine)**
+
 **[Use The Proper Website Name](#use-the-proper-website-name)**
 
 **[Log Into The Virtual Machine](#log-into-the-virtual-machine)**
+
+**[Sym Star Tutorial List](#sym-star-tutorial-list)**
 
 ### Install Vagrant and VirtualBox
 
@@ -39,10 +43,12 @@ This will give you a folder structure like:
 ```
 
 ### Launch The Virtual Machine
-To launch the vagrant box go to your directory (you'll already be there if you're following along) and at the terminal type the following command. This will download the linux operating system image, boot up the virtual machine and provision it, installing and launching all the packages that are needed for a full web development server to build a nice Symfony app with. It may take some time and there may be alot of red ink. Usually the red output is actually fine. So read the following text to check for sure once the process has completed.
+To launch the vagrant box, go to your directory (you'll already be there if you're following along) and at the terminal type the following command. This will download the linux operating system image, boot up the virtual machine and run the provisioning script called bootstrap.sh that's referenced in the Vagrant file that you downloaded as part sym-star. The bootstrap script will install and launch all the packages that are needed for a full web development server to build a nice Symfony app with. This process will take some time and there may be alot of red ink but don't worry! Usually the red output is actually fine. So read the next instructions to check for sure once the process has completed.
 ```
 vagrant up
 ```
+
+### First Test Of Virtual Machine
 To test your virtual machine, go to your favorite web browser and type 192.168.50.4 into the address bar. This is the ip address that the virtual machine is given in the Vagrantfile you downloaded as part of sym-star. If you see the symfony test page, then it's all working so far. If you see anything else, try checking out the troubleshooting section at the end of this page.
 
 ### Use The Proper Website Name
@@ -85,3 +91,5 @@ vagrant ssh
 ```
 You are now logged into the virtual machine. If you like you can do all of your development right here. There's a really nice version of vi (vim) installed with loads of cool plugins for navigation, code highlighting, opening and searching files, debugging php and stuff like that. Check out the youtube tutorials for more details of how to use it.
 
+### Sym Star Tutorial List
+To do...
