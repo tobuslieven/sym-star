@@ -45,7 +45,7 @@ This will give you a folder structure like:
 ```
 /MyWebsitesFolder
     /MyProjectName
-        ...The contents of sym-star are here...
+        ...The contents of your nice new base project are here...
 ```
 
 ### Launch The Virtual Machine
