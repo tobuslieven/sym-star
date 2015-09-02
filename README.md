@@ -5,6 +5,8 @@
 ### Table Of Contents
 **[Install Vagrant and VirtualBox](#install-vagrant-and-virtualbox)**
 
+**[Get The Sym Star Repository](#get-the-sym-star-repository)**
+
 **[Launch The Virtual Machine](#launch-the-virtual-machine)**
 
 **[First Test Of Virtual Machine](#first-test-of-virtual-machine)**
@@ -16,7 +18,10 @@
 **[Sym Star Tutorial List](#sym-star-tutorial-list)**
 
 ### Install Vagrant and VirtualBox
+Download and install VirtualBox from [here](https://www.virtualbox.org/).
+Download and install Vagrant from [here](https://www.vagrantup.com/).
 
+### Get The Sym Star Repository
 Change directory to where you want your project folder to be.
 ```
 cd ~/MyWebsitesFolder
