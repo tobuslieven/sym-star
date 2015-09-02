@@ -9,6 +9,7 @@
 
 **[Use The Proper Website Name](#use-the-proper-website-name)**
 
+**[Log Into The Virtual Machine](#log-into-the-virtual-machine)**
 
 ### Install Vagrant and VirtualBox
 
