@@ -19,6 +19,7 @@
 
 ### Install Vagrant and VirtualBox
 Download and install VirtualBox from [here](https://www.virtualbox.org/).
+
 Download and install Vagrant from [here](https://www.vagrantup.com/).
 
 ### Get The Sym Star Repository
