@@ -4,7 +4,9 @@
 
 ### Table Of Contents
 **[Install Vagrant and VirtualBox](#install-vagrant-and-virtualbox)**
+
 **[Launch The Virtual Machine](#launch-the-virtual-machine)**
+
 **[Use The Proper Website Name](#use-the-proper-website-name)**
 
 
