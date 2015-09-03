@@ -29,7 +29,7 @@ Change directory to where you want your project folder to be.
 ```
 cd ~/MyWebsitesFolder
 ```
-Git clone this repo to a new 'MyProjecName' folder, ignoring the history of the sym-star repository because you won't need it.
+Git clone this repo to a new 'MyProjectName' folder, ignoring the history of the sym-star repository because you won't need it.
 ```
 git clone --depth=1 MyProjectName
 ```
